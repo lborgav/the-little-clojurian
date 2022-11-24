@@ -18,9 +18,13 @@
     (atom? x)
     (list? x)))
 
-(def car first)
+(def car
+  "We're creating a car function that is identical to first"
+  first)
 
-(def cdr rest)
+(def cdr
+  "We're creating a cdr function that is identical to rest"
+  rest)
 
 (defn null?
   "Return true if x is a null list"
