@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="389904b4-030c-4f32-b00d-f589ac273248" name="Changes" comment="splits the chapters">
+    <list default="true" id="389904b4-030c-4f32-b00d-f589ac273248" name="Changes" comment="removes :gen-class">
+      <change afterPath="$PROJECT_DIR$/src/the_little_clojurian/chapter_3.clj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/the_little_clojurian/chapter_3_test.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the_little_clojurian/chapter_1.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/the_little_clojurian/chapter_1.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the_little_clojurian/chapter_2.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/the_little_clojurian/chapter_2.clj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,12 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.smartKeys.clojure"
+    "settings.editor.selected.configurable": "preferences.fileTypes"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Clojure"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -43,7 +47,7 @@
       <recent name="$PROJECT_DIR$/test/the_little_clojurian" />
     </key>
   </component>
-  <component name="RunManager" selected="clojure.test.Run tests in the-little-clojurian.chapter-2-test">
+  <component name="RunManager" selected="clojure.test.Test the-little-clojurian.chapter-3-test/rember-test">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -108,20 +112,20 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test the-little-clojurian.chapter-2-test/lat?-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+    <configuration name="Test the-little-clojurian.chapter-3-test/rember-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
       <module name="the-little-clojurian" />
       <option name="selector" value="SINGLE_VAR" />
-      <option name="varFqn" value="the-little-clojurian.chapter-2-test/lat?-test" />
+      <option name="varFqn" value="the-little-clojurian.chapter-3-test/rember-test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="clojure.test.Test the-little-clojurian.chapter-3-test/rember-test" />
         <item itemvalue="clojure.test.Run tests in the-little-clojurian.chapter-2-test" />
         <item itemvalue="clojure.test.Run tests in the-little-clojurian.chapter-1-test" />
         <item itemvalue="clojure.test.Test the-little-clojurian.chapter-1-test/null?-test" />
         <item itemvalue="clojure.test.Test the-little-clojurian.chapter-1-test/cdr-test" />
-        <item itemvalue="clojure.test.Test the-little-clojurian.chapter-2-test/lat?-test" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669686828640</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="removes :gen-class">
+      <created>1669686993946</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669686993946</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +188,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adds chapter 1 and chapter 2 functions" />
     <MESSAGE value="splits the chapters" />
-    <option name="LAST_COMMIT_MESSAGE" value="splits the chapters" />
+    <MESSAGE value="removes :gen-class" />
+    <option name="LAST_COMMIT_MESSAGE" value="removes :gen-class" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
