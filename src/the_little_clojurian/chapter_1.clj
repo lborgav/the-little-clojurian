@@ -1,5 +1,4 @@
-(ns the-little-clojurian.chapter-1
-  (:gen-class))
+(ns the-little-clojurian.chapter-1)
 
 ;; Chapter 1 - Toys
 

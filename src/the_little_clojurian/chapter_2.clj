@@ -1,5 +1,4 @@
 (ns the-little-clojurian.chapter-2
-  (:gen-class)
   (:require [the-little-clojurian.chapter-1 :refer :all]))
 
 ;; Chapter 2 - Do It, Do It Again, and Again...

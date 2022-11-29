@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="389904b4-030c-4f32-b00d-f589ac273248" name="Changes" comment="adds chapter 1 and chapter 2 functions">
-      <change afterPath="$PROJECT_DIR$/src/the_little_clojurian/chapter_2.clj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/the_little_clojurian/chapter_2_test.clj" afterDir="false" />
+    <list default="true" id="389904b4-030c-4f32-b00d-f589ac273248" name="Changes" comment="splits the chapters">
+      <change afterPath="$PROJECT_DIR$/test/the_little_clojurian/chapter_3_test.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the_little_clojurian/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/the_little_clojurian/chapter_1.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/the_little_clojurian/core_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/the_little_clojurian/chapter_1_test.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the_little_clojurian/chapter_1.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/the_little_clojurian/chapter_1.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the_little_clojurian/chapter_2.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/the_little_clojurian/chapter_2.clj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669686040055</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="splits the chapters">
+      <created>1669686828640</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669686828640</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,7 +156,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -158,6 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adds chapter 1 and chapter 2 functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds chapter 1 and chapter 2 functions" />
+    <MESSAGE value="splits the chapters" />
+    <option name="LAST_COMMIT_MESSAGE" value="splits the chapters" />
   </component>
 </project>
