@@ -1,6 +1,6 @@
-(ns the-little-clojurian.core-test
+(ns the-little-clojurian.chapter-1-test
   (:require [clojure.test :refer :all]
-            [the-little-clojurian.core :refer :all]))
+            [the-little-clojurian.chapter-1 :refer :all]))
 
 
 ;; Chapter 1 - Toys
@@ -58,16 +58,3 @@
     (is (= true (eq? 'Harry 'Harry)))
     (is (= false (eq? 'margarine 'butter)))
     (is (= false (eq? '() '(strawberry))))))
-
-
-;; Chapter 2 - Do It, Do It Again, and Again...
-
-(deftest lat?-test
-  (testing "tests lat"
-    (is (= false (lat? '(bacon (and eggs)))))
-    (is (= true (lat? '(coffee tea or milk))))))
-
-
-(deftest member?-test
-  (testing "tests member"
-    (is (= true (member? 'meat '(mashed potatoes and meat gravy))))))

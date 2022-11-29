@@ -1,8 +1,7 @@
-(ns the-little-clojurian.core
+(ns the-little-clojurian.chapter-1
   (:gen-class))
 
-
-;; Chapter 1
+;; Chapter 1 - Toys
 
 (defn atom?
   "Return true if x is an atom (Scheme)"
@@ -29,30 +28,13 @@
 (defn null?
   "Return true if x is a null list"
   [x]
-  (and
-    (list? x)
-    (= '() x)))
+  (cond
+    (atom? x) (throw "Type error")
+    :else (and
+            (list? x)
+            (= '() x))))
 
 (defn eq?
   "eq?"
   [x y]
   (= x y))
-
-;; Chapter 2
-
-(defn lat?
-  "Return true if x is a list of atoms"
-  [x]
-  (cond
-    (null? x) true
-    (atom? (car x)) (lat? (cdr x))
-    :else false))
-
-
-(defn member?
-  "Return true if a is a member of list l"
-  [a lat]
-  (cond
-    (null? lat) true
-    :else (or (eq? (car lat) a)
-              (member? a (cdr lat)))))

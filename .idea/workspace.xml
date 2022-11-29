@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="389904b4-030c-4f32-b00d-f589ac273248" name="Changes" comment="">
+    <list default="true" id="389904b4-030c-4f32-b00d-f589ac273248" name="Changes" comment="adds chapter 1 and chapter 2 functions">
+      <change afterPath="$PROJECT_DIR$/src/the_little_clojurian/chapter_2.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/the_little_clojurian/chapter_2_test.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the_little_clojurian/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/the_little_clojurian/core.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/the_little_clojurian/core_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/the_little_clojurian/core_test.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the_little_clojurian/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/the_little_clojurian/chapter_1.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/the_little_clojurian/core_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/the_little_clojurian/chapter_1_test.clj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +32,19 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/lborgav/Code/the-little-clojurian/test/the_little_clojurian",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "editor.preferences.smartKeys.clojure"
   }
 }]]></component>
-  <component name="RunManager" selected="clojure.test.Run tests in the-little-clojurian.core-test">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/the_little_clojurian" />
+    </key>
+  </component>
+  <component name="RunManager" selected="clojure.test.Run tests in the-little-clojurian.chapter-2-test">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -73,48 +81,48 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Run tests in the-little-clojurian.core-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+    <configuration name="Run tests in the-little-clojurian.chapter-1-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
       <module name="the-little-clojurian" />
-      <option name="namespace" value="the-little-clojurian.core-test" />
+      <option name="namespace" value="the-little-clojurian.chapter-1-test" />
       <option name="selector" value="SINGLE_NS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test the-little-clojurian.core-test/atom?-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+    <configuration name="Run tests in the-little-clojurian.chapter-2-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
       <module name="the-little-clojurian" />
-      <option name="selector" value="SINGLE_VAR" />
-      <option name="varFqn" value="the-little-clojurian.core-test/atom?-test" />
+      <option name="namespace" value="the-little-clojurian.chapter-2-test" />
+      <option name="selector" value="SINGLE_NS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test the-little-clojurian.core-test/cdr-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+    <configuration name="Test the-little-clojurian.chapter-1-test/cdr-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
       <module name="the-little-clojurian" />
       <option name="selector" value="SINGLE_VAR" />
-      <option name="varFqn" value="the-little-clojurian.core-test/cdr-test" />
+      <option name="varFqn" value="the-little-clojurian.chapter-1-test/cdr-test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test the-little-clojurian.core-test/list?-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+    <configuration name="Test the-little-clojurian.chapter-1-test/null?-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
       <module name="the-little-clojurian" />
       <option name="selector" value="SINGLE_VAR" />
-      <option name="varFqn" value="the-little-clojurian.core-test/list?-test" />
+      <option name="varFqn" value="the-little-clojurian.chapter-1-test/null?-test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test the-little-clojurian.core-test/rember-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+    <configuration name="Test the-little-clojurian.chapter-2-test/lat?-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
       <module name="the-little-clojurian" />
       <option name="selector" value="SINGLE_VAR" />
-      <option name="varFqn" value="the-little-clojurian.core-test/rember-test" />
+      <option name="varFqn" value="the-little-clojurian.chapter-2-test/lat?-test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="clojure.test.Run tests in the-little-clojurian.core-test" />
-        <item itemvalue="clojure.test.Test the-little-clojurian.core-test/cdr-test" />
-        <item itemvalue="clojure.test.Test the-little-clojurian.core-test/atom?-test" />
-        <item itemvalue="clojure.test.Test the-little-clojurian.core-test/list?-test" />
-        <item itemvalue="clojure.test.Test the-little-clojurian.core-test/rember-test" />
+        <item itemvalue="clojure.test.Run tests in the-little-clojurian.chapter-2-test" />
+        <item itemvalue="clojure.test.Run tests in the-little-clojurian.chapter-1-test" />
+        <item itemvalue="clojure.test.Test the-little-clojurian.chapter-1-test/null?-test" />
+        <item itemvalue="clojure.test.Test the-little-clojurian.chapter-1-test/cdr-test" />
+        <item itemvalue="clojure.test.Test the-little-clojurian.chapter-2-test/lat?-test" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +135,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669318804545</updated>
     </task>
+    <task id="LOCAL-00001" summary="adds chapter 1 and chapter 2 functions">
+      <created>1669686040055</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669686040055</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,5 +155,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adds chapter 1 and chapter 2 functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="adds chapter 1 and chapter 2 functions" />
   </component>
 </project>
