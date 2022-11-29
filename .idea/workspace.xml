@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="RunManager">
+  <component name="ChangeListManager">
+    <list default="true" id="389904b4-030c-4f32-b00d-f589ac273248" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the_little_clojurian/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/the_little_clojurian/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/the_little_clojurian/core_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/the_little_clojurian/core_test.clj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2I0W6Cj6Y8uXt7CwF7ZRmAcz2Mr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.smartKeys.clojure"
+  }
+}]]></component>
+  <component name="RunManager" selected="clojure.test.Run tests in the-little-clojurian.core-test">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -40,5 +73,71 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Run tests in the-little-clojurian.core-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+      <module name="the-little-clojurian" />
+      <option name="namespace" value="the-little-clojurian.core-test" />
+      <option name="selector" value="SINGLE_NS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test the-little-clojurian.core-test/atom?-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+      <module name="the-little-clojurian" />
+      <option name="selector" value="SINGLE_VAR" />
+      <option name="varFqn" value="the-little-clojurian.core-test/atom?-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test the-little-clojurian.core-test/cdr-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+      <module name="the-little-clojurian" />
+      <option name="selector" value="SINGLE_VAR" />
+      <option name="varFqn" value="the-little-clojurian.core-test/cdr-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test the-little-clojurian.core-test/list?-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+      <module name="the-little-clojurian" />
+      <option name="selector" value="SINGLE_VAR" />
+      <option name="varFqn" value="the-little-clojurian.core-test/list?-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test the-little-clojurian.core-test/rember-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+      <module name="the-little-clojurian" />
+      <option name="selector" value="SINGLE_VAR" />
+      <option name="varFqn" value="the-little-clojurian.core-test/rember-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="clojure.test.Run tests in the-little-clojurian.core-test" />
+        <item itemvalue="clojure.test.Test the-little-clojurian.core-test/cdr-test" />
+        <item itemvalue="clojure.test.Test the-little-clojurian.core-test/atom?-test" />
+        <item itemvalue="clojure.test.Test the-little-clojurian.core-test/list?-test" />
+        <item itemvalue="clojure.test.Test the-little-clojurian.core-test/rember-test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="389904b4-030c-4f32-b00d-f589ac273248" name="Changes" comment="" />
+      <created>1669318804545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669318804545</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

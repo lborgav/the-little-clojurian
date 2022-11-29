@@ -32,3 +32,27 @@
   (and
     (list? x)
     (= '() x)))
+
+(defn eq?
+  "eq?"
+  [x y]
+  (= x y))
+
+;; Chapter 2
+
+(defn lat?
+  "Return true if x is a list of atoms"
+  [x]
+  (cond
+    (null? x) true
+    (atom? (car x)) (lat? (cdr x))
+    :else false))
+
+
+(defn member?
+  "Return true if a is a member of list l"
+  [a lat]
+  (cond
+    (null? lat) true
+    :else (or (eq? (car lat) a)
+              (member? a (cdr lat)))))
